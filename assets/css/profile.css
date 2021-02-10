@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    height: 130px;
+    background-color: #00BFA6;
+}
+.dbtitle a{
+    text-decoration: none;
+    color: #fff;
+}
+.dbtitle{
+    position: absolute;
+    font-size: 75px;
+    margin: 22px 0 0 250px;
+}
+
+.search{
+    height: 60px;
+    width: 550px;
+    background: #fff;
+    position: absolute;
+    border-radius: 60px;
+    margin: 40px 0 0 700px;
+}
+
+.search input{
+    position: absolute;
+    height: 60px;
+    width: 550px;
+    border-radius: 60px;
+    font-size: 30px;
+    padding: 10px;
+    outline: none;
+}
+.search img{
+    height: 40px;
+    margin-left: 490px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.wishlist .heart{
+    height: 50px;
+    margin: 10 0 0 72%;
+    position: absolute;
+    cursor: pointer;
+}
+.wishlist h3{
+    height: 50px;
+    margin: 10 0 0 75%;
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.wishlist .shopping{
+    height: 50px;
+    margin: 70 0 0 76%;
+    position: absolute;
+    cursor: pointer;
+}
+.profile img{
+    height: 80px;
+    position: absolute;
+    margin: 25px 0 0 85%;
+}
+.profile h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    margin:45px 0 0 90%;
+    position: absolute;
+}
+.subprof li{
+    padding: 10px;
+}
+
+.profile .subprof{
+    color: white;
+    text-align: center;
+    width: 5%;
+    list-style: none;
+    margin-left: 1750px;
+    margin-top: 80px;
+    position: fixed;
+    text-decoration: none;
+    background-color: #00BFA6;
+    border-radius: 5px;
+}
+.profile .subprof li:hover{
+    color: rgb(0, 255, 221);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subprof a{
+    text-decoration: none;
+    color: white;
+}
+.subprof a:hover{
+    color: rgb(0, 255, 221);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    margin:45px 0 0 90%;
+    position: absolute;
+}
+#profname:hover{
+    cursor: pointer;
+    color: rgb(0, 255, 221);
+}
+.profpic img{
+    border-radius: 50%;
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    margin: 200px 0 0 200px;
+    cursor: pointer;
+    box-shadow: 0 0 30px #00BFA6;
+}
+.selectimg{
+    position: absolute;
+    margin: 700px 0 0 300px;
+}
+.uploadimg button{
+    position: absolute;
+    margin: 750px 0 0 300px;
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: white;
+    background-color: #00BFA6;
+    cursor: pointer;
+}
+
+.userinfo{
+    height: 70%;
+    padding: 20 0 30 0;
+    width: 30%;
+    position: absolute;
+    border: 5px solid #00BFA6;
+    border-radius: 60px;
+    margin: 170px 0 0 60%;
+}
+.input{
+    margin: 30px 0 0 20px;
+    display: flex;
+    width: 100%;
+}
+.input input{
+    width: 60%;
+    height: 50px;
+    margin: 0 20px;
+    border: 1px solid #00BFA6;
+    border-radius: 60px;
+    padding: 10px;
+    outline: none;
+    font-size: 25px;
+}
+.input h4{
+    color: #00BFA6;
+    width: 150px;
+    font-size: 25px;
+    text-align: right;
+    margin: auto 0px;
+    font-weight: lighter;
+}
+.update input{
+    width: 30%;
+    height: 50px;
+    margin: 50px auto 0;
+    display: block;
+    color: #00BFA6;
+    border: 1px solid #00BFA6;
+    border-radius: 60px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.input .error{
+    color: rgb(236, 9, 9);
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90%;
+    text-align: left;
+}
+.imageError{
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    margin-top: 800px;
+    margin-left: 300px;
+}
+.imageSucc{
+    position: absolute;
+    color: rgb(29, 177, 29);
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 10px;
+}

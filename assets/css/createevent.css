@@ -1,0 +1,189 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    height: 130px;
+    background-color: #00BFA6;
+}
+.navbutton{
+    position: absolute;
+    height: 50px;
+    margin: 40px 0 0 50px;
+    cursor: pointer;
+}
+.dbtitle{
+    position: absolute;
+    font-size: 75px;
+    color: #fff;
+    margin: 22px 0 0 250px;
+}
+
+.search{
+    height: 60px;
+    width: 550px;
+    background: #fff;
+    position: absolute;
+    border-radius: 60px;
+    margin: 40px 0 0 700px;
+}
+
+.search input{
+    position: absolute;
+    height: 60px;
+    width: 550px;
+    border-radius: 60px;
+    font-size: 30px;
+    padding: 10px;
+    outline: none;
+}
+.search img{
+    height: 40px;
+    margin-left: 490px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.wishlist .heart{
+    height: 50px;
+    margin: 10 0 0 72%;
+    position: absolute;
+    cursor: pointer;
+}
+.wishlist h3{
+    height: 50px;
+    margin: 10 0 0 75%;
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.wishlist .shopping{
+    height: 50px;
+    margin: 70 0 0 76%;
+    position: absolute;
+    cursor: pointer;
+}
+.profile img{
+    height: 80px;
+    position: absolute;
+    margin: 25px 0 0 85%;
+}
+.profile h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    margin:45px 0 0 90%;
+    position: absolute;
+}
+.nav{
+    margin: 40px 0 0 40px;
+    border: 2px solid #00BFA6;
+    border-radius: 70px;
+    width: 450px;
+    outline: none;
+    height: 730px;
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+    
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #00BFA6;
+}
+.navbar ul li .catimg{
+    height: 30px;
+}
+.sub{
+    margin-top: 10px;
+    
+}
+.sub li{
+    cursor: pointer;
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    color: #00BFA6;
+    margin-left: 250px;
+}
+.sub li:hover{
+    color: rgb(0, 255, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#profname:hover{
+    cursor: pointer;
+    color: rgb(0, 255, 221);
+}
+.subprof li{
+    padding: 10px;
+}
+
+.profile .subprof{
+    color: white;
+    text-align: center;
+    width: 5%;
+    list-style: none;
+    margin-left: 1820px;
+    margin-top: 70px;
+    position: fixed;
+    text-decoration: none;
+    background-color: #00BFA6;
+    border-radius: 5px;
+}
+.profile .subprof li:hover{
+    color: rgb(0, 255, 221);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subprof a{
+    text-decoration: none;
+    color: white;
+}
+.subprof a:hover{
+    color: rgb(0, 255, 221);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    width: 1000px;
+    background-color: rgb(173, 171, 171);
+}
+
+ */
+ .navbar{
+    background-color: #00BFA6;
+}
+.navbar-nav li{
+    font-size: 1.6rem;
+}
+#demo p:hover{
+    cursor: pointer;
+}
+.container-fluid .row{
+    height: 10%;
+}
+.form-group input{
+    margin-top: 5px;
+}
+.form-group h5{
+    margin-top: 15px;
+}
+.ayojon{
+    padding-top: 100px;
+}
+.error{
+    color: rgb(243, 36, 0);
+}
